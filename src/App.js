@@ -6,6 +6,7 @@ import Login from "./pages/Login";
 import Logout from "./pages/Logout";
 import Register from "./pages/Register";
 import NoPage from "./pages/NoPage";
+import Sidebar from "./pages/Sidebar";
 import './style.css';
 
 export default function App() {
@@ -64,6 +65,7 @@ export default function App() {
           <Route path="register" element={<Register  />} />
           <Route path="logout" element={<Logout uname={uname} handleLogout={handleLogout} />} />
           <Route path="*" element={<NoPage />} />
+          <Route path="Sidebar" element={<Sidebar />} />
         </Route>
       </Routes>
     </BrowserRouter>

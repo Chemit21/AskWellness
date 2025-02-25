@@ -5,6 +5,9 @@ const Layout = () => {
         <nav>
           <ul>
             <li>
+              Wellness Hub
+            </li>
+            <li>
               <Link to="/">Home</Link>&nbsp;&nbsp;
             </li>
             <li>

@@ -1,3 +1,10 @@
 li {
     display: inline;
+    text-align: center;
 }
+
+nav {
+    text-align: center;
+    font-size: medium;
+}
+
